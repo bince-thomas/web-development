@@ -1,0 +1,9 @@
+.carousel-indicators li{
+
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+img{
+height: 150px;
+}

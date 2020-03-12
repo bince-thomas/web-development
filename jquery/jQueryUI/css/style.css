@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+article {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px dotted #e8e8e8;
+}
+
+.article__header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.article__header header {
+  font-size: 30px;
+}
+
+.article__body {
+  margin: 30px 0;
+}
+
+.article__footer a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ff6600;
+}
+
+.btn__page .section__one,
+.btn__page .message__box {
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.btn__page button {
+  display: block;
+}

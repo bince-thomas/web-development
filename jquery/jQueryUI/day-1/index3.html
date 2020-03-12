@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/style3.css" />
+</head>
+<body>
+    
+
+    <div class="mainnav">
+
+        <ul>
+            <li><a href="#">home</a> </li>
+            <li><a href="#">about</a>
+                <ul class="subnav">
+                    <li>hgvhgvkjh</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </li>
+            <li><a href="#">product</a>
+                <ul class="subnav">
+                    <li>1 
+                        <ul class="subnav1">
+                            <li>
+                                 1
+                        </li>
+                        <li>2</li>
+                        <li>3</li></ul>
+                    </li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+
+    <script src="jquery.v3.4.1.js"></script>
+    <script>
+$(document).ready( function(){
+ $(".mainnav>ul>li").hover(function(){
+     $(this).find(".subnav").slideToggle(1000);
+ })
+
+
+})
+
+    </script>
+</body>
+</html>

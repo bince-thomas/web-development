@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainnav{
+    width: 100%;
+    background-color: blue;
+}
+
+ul{
+    list-style: none;
+}
+
+.mainnav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    align-items: center;
+}
+li,a {
+    color: aliceblue;
+
+}
+.mainnav>ul>li{
+    position: relative;
+    width: 90%;
+    text-align: center;
+
+}
+.subnav{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    background-color: black;
+width: 100%;
+text-align: center;
+display: none;
+
+}
+
+
+.subnav li {
+    position: relative;
+
+}
+.subnav1{
+    position: absolute;
+    right: -50px;
+    top: 0;
+    background-color: brown;
+    width: 50px;
+    display: none;
+}
